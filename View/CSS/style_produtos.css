@@ -1,0 +1,240 @@
+/* css */
+
+#content_cadastro{
+    width: 1100px;
+    height: 1000px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    
+}
+
+#titulo_cadastro{
+    width: 1100px;
+    height: 50px;
+    font-size: 32pt;
+    text-align: center;
+
+}
+
+/* campos de nome e valor */
+
+#campos_NV{
+    width: 1100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+/* campo nome */
+
+#campo_nome{
+    width: 550px;
+    height: 100px;
+    padding-left: 75px;
+    float: left;
+}
+
+.titulos{
+    font-size: 22pt;
+    float: left;
+}
+
+#txtnome{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#campo_valor{
+    width: 425px;
+    height: 100px;
+    padding-left: 50px;
+    float: left;
+    
+}
+
+#txtvalor{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* Campo descrição */
+
+#campo_desc{
+    width: 1075px;
+    height: 100px;
+    padding-left: 25px;
+}
+
+
+
+#txtdesc{
+    
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+/* caixa dos combo box */
+
+#c_box{
+    width: 400px;
+    height: 510px;
+    padding-top: 40px;
+    float: left;
+}
+
+#c_subcategoria{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#combo_subcat{
+    width: 150px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+#c_categoria{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#combo_categoria{
+    width: 150px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 65px;
+    font-size: 22px;
+}
+
+#c_estilo{
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#combo_estilo{
+    width: 150px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 90px;
+    font-size: 22px;
+}
+
+#c_marca{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#combo_marca{
+    width: 150px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 95px;
+    font-size: 22px;
+}
+
+#c_tamanho{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#combo_tamanho{
+    width: 150px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 60px;
+    font-size: 22px;
+}
+
+#c_cor{
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#combo_cor{
+    width: 150px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 125px;
+    font-size: 22px;
+}
+
+
+
+
+/* caixa de imagem */
+
+#campo_img{
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
+    float: left;
+}
+
+#img_produto{
+    width: 450px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dcdcdc;
+    
+}
+
+#campo_foto{
+    width: 115px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#fl_img{
+    width: 150px;
+}
+
+#fle_imagem{
+    width: 0px; 
+    height: 50px;
+}
+
+#titulo_img{
+    width: 520px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16pt;
+}
+
+#caixa_cbox_img{
+    width: 1100px;
+    height: 550px;
+}
+
+#campo_btn_produtos{
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    
+}
+
+#btnsalvar{
+    width: 150px;
+    height: 50px;
+    font-size: 16pt;
+}
+
+
+

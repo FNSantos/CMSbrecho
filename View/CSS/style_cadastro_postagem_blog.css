@@ -1,0 +1,14 @@
+
+.input_textarea{
+    resize: none;
+    font-size: 16pt;    
+    width: 600px;
+    height: 250px;
+    
+}
+
+#box_image{
+    height: 350px;
+    width: 450px;
+    background-color: aquamarine;
+}

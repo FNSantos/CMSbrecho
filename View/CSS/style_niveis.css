@@ -1,0 +1,24 @@
+#register_content{
+
+    width: 420px;
+    height: 150px;
+    margin-left: 180px;
+    margin-right: 20px;
+    /* background-color: blue; */
+    float: left;
+
+}
+
+#list_levels{
+
+    width: 400px;
+    height: 90px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+
+}

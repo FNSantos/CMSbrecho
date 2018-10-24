@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ResCarousel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery.min.js"></script>
+    <link href="css/resCarousel.css" rel="stylesheet" type="text/css">
+    
+
+    <style>
+        h3{
+            font-family: sans-serif;
+        }
+        body {
+            font-family: 'Trirong', serif;
+            background: #eee;
+        }
+        
+        .p0 {
+            padding: 0;
+        }
+        
+        .resCarousel-inner .item {
+            /*border: 4px solid #eee;*/
+            /*vertical-align: top;*/
+            text-align: center;
+        }
+        
+        .resCarousel-inner .item .tile div,
+        .banner .item div {
+            display: table;
+            width: 100%;
+            min-height: 250px;
+            text-align: center;
+            /*box-shadow: 0 1px 1px rgba(0, 0, 0, .1);*/
+        }
+        
+        .resCarousel-inner .item h1 {
+            display: table-cell;
+            vertical-align: middle;
+            color: white;
+        }
+        
+        .banner .item div {
+            background: url('demoImg.jpg') center top no-repeat;
+            background-size: cover;
+            min-height: 550px;
+        }
+        
+        .item .tile div {
+            background: url('demoImg.jpg') center center no-repeat;
+            background-size: cover;
+            height: 200px;
+            color: white;
+        }
+        
+        .item div h1 {
+            background: rgba(0, 0, 0, .4);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!--home-->
+    <div class="container p8">
+        <div class="resCarousel" data-items="2-3-4-5" data-slide="5" data-speed="900" data-interval="4000" data-load="3" data-animator="lazy">
+            <div class="resCarousel-inner" id="eventLoad">
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>1</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>2</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>3</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>4</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>5</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>6</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>7</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>8</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="tile">
+                        <div>
+                            <h1>9</h1>
+                        </div>
+                        <h3>Title</h3>
+                        <p>content</p>
+                    </div>
+                </div>
+
+             
+            </div>
+            <button class='btn btn-default leftRs'><</button>
+            <button class='btn btn-default rightRs'>></button>
+        </div>
+    </div>
+    <script>
+        
+        $("#eventLoad").on('ResCarouselLoad', function() {
+            //console.log("triggered");
+            var dat = "";
+            var lenghtI = $(this).find(".item").length;
+          
+        });
+    </script>
+    <script src="js/resCarousel.js"></script>
+</body>
+
+</html>
