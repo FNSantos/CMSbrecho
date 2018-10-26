@@ -71,6 +71,7 @@
             $funcionario->setIdNivel($_POST["idNivel"]);
             $funcionario->setDtContratacao($_POST["dtContratacao"]);
             $funcionario->setSenha($_POST["senha"]);
+             
             $funcionario->setLogradouro($_POST["logradouro"]);
             $funcionario->setNumero($_POST["numero"]);
             $funcionario->setBairro($_POST["bairro"]);

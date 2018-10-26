@@ -162,6 +162,7 @@ function obterUm(){
 
         let funcionario = JSON.parse(dados);
 
+        console.log(funcionario['senha']);
         
         $("#txt_nome").val(funcionario["nome"]);
         $("#txt_cpf").val(funcionario["cpf"]);
@@ -174,13 +175,15 @@ function obterUm(){
         $("#txt_numero").val(funcionario["numero"]);
         $("#txt_bairro").val(funcionario["bairro"]);
         $("#txt_cep").val(funcionario["cep"]);
-        $("#txt_dt_contr").val(funcionario["data_contratacao"]);        
+        $("#txt_dt_contr").val(funcionario["data_contratacao"]);
+        $("#txt_senha").val(funcionario["senha"]);
+        $("#txt_confirmar").val(funcionario["senha"]);
         
-        if(funcionario["sexo"] == "M"){
+       /* if(funcionario["sexo"] == "M"){
             var v = $("#rdo_sexo").val();
             document.getElementById("rdo_sexo").val()checked = true;
         }
-        
+        */
         setTimeout(function(){
             $('select#slt_estado').find('option').each(function() {
             if($(this).val() == funcionario["id_estado"]){
@@ -193,6 +196,12 @@ function obterUm(){
                 $(this).attr('selected', true);
             }
         });
+            
+        var $radios = $('input:radio[name=rdo_sexo]');
+        if($radios.is(':checked') === false) {
+            $radios.filter('[value=M]').prop('checked', true);
+        }
+
         }, 3000)
         
         setTimeout(function(){             
@@ -204,14 +213,22 @@ function obterUm(){
         }, 6000)
         
         
+    modo = "atualizar";
 
     });
     
-    modo = "atualizar";
 
 }
 
 function atualizar(idFuncionario){
+    
+    let elemento = document.getElementById("slt_municipio");
+
+    let cidade = elemento.options[elemento.selectedIndex].text;
+
+    elemento = document.getElementById("slt_estado");
+
+    let estado = elemento.options[elemento.selectedIndex].text;
 
     $.post(rota, {
 
@@ -220,10 +237,24 @@ function atualizar(idFuncionario){
         idFuncionario: idFuncionario,
         nome:$("#txt_nome").val(),
         cpf:$("#txt_cpf").val(),
-        celular:$("#txt_celular").val(),
+        dtNascimento:$("#txt_dt_nasc").val(),
         cargo:$("#txt_cargo").val(),
+        sexo:$("#rdo_sexo").val(),
+        email:$("#txt_email").val(),
+        celular:$("#txt_celular").val(),
+        logradouro:$("#txt_logradouro").val(),
+        numero:$("#txt_numero").val(),
+        bairro:$("#txt_bairro").val(),
+        cep:$("#txt_cep").val(),
+        idCidade:$("#slt_municipio").val(),
+        idEstado:$("#slt_estado").val(),
         idNivel:$("#slt_nivel").val(),
-        endereco:$("#txt_endereco").val()
+        dtContratacao:$("#txt_dt_contr").val(),        
+        confirmar:$("#txt_confirmar").val(),
+        senha:$("#txt_senha").val(),
+        estado:estado,
+        cidade:cidade,
+
 
     }).done(function(dados){
 
@@ -231,7 +262,7 @@ function atualizar(idFuncionario){
 
     });
 
-    modo = "inserir"
+    modo = "inserir";
 }
 
 function atualizarSituacao(id, situacao){

@@ -40,6 +40,43 @@
             }
 
         }
+        
+        public function atualizar(Endereco $endereco){
+
+            $conexao = ConexaoBanco::obterConexao();
+
+            $SQL = "UPDATE tbl_endereco SET(logradouro, cep, bairro, numero, id_cidade) VALUES(?, ?, ?, ?, ?) where id_endereco = ? ";
+
+            $stm = $conexao->prepare($SQL);
+
+            $stm->bindValue(1, $endereco->getLogradouro());
+            $stm->bindValue(2, $endereco->getCEP());
+            $stm->bindValue(3, $endereco->getBairro());
+            $stm->bindValue(4, $endereco->getNumero());
+            $stm->bindValue(5, $endereco->getIdCidade());
+            $stm->bindValue(6, $endereco->getIdEndereco());
+
+            $envio = $stm->execute();
+
+            if($envio){
+
+                $SQL = "SELECT LAST_INSERT_ID()";
+
+                $stm = $conexao->prepare($SQL);
+
+                $stm->setFetchMode(PDO::FETCH_ASSOC);
+
+                $stm->execute();
+
+                $resultSet = $stm->fetch();
+
+                $conexao = null;
+
+                return $resultSet["LAST_INSERT_ID()"];
+
+            }
+
+        }
 
         public function inserirEstado(Endereco $endereco){
 
