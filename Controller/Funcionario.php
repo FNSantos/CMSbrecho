@@ -60,6 +60,8 @@
             
             $funcionario = new Funcionario();            
             $funcionarioDAO = new FuncionarioDAO();
+            $endereco = new Endereco();
+            $enderecoDAO = new EnderecoDAO();
             
             $funcionario->setNome($_POST["nome"]);
             $funcionario->setCPF($_POST["cpf"]); 
@@ -71,7 +73,7 @@
             $funcionario->setIdNivel($_POST["idNivel"]);
             $funcionario->setDtContratacao($_POST["dtContratacao"]);
             $funcionario->setSenha($_POST["senha"]);
-             
+            
             $funcionario->setLogradouro($_POST["logradouro"]);
             $funcionario->setNumero($_POST["numero"]);
             $funcionario->setBairro($_POST["bairro"]);
@@ -82,8 +84,23 @@
             $funcionario->setCidade($_POST["cidade"]);
 
             
+             if($funcionario->getSenha() != $_POST["confirmar"]){
+
+                echo("Senha diferente na confirmação.");
+
+            } else {
+
+                $enderecoDAO->inserirEstado($endereco);
+
+                $endereco->setIdCidade($enderecoDAO->inserirCidade($endereco));
+
+                $funcionario->setIdEndereco($enderecoDAO->atualizar($endereco));
+
+                $funcionarioDAO->atualizar($funcionario);
+
+            }
+             
             
-            $funcionarioDAO->atualizar($funcionario);
             
         }
 

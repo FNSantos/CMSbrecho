@@ -23,9 +23,6 @@ function obterAutenticacao(){
 
 function inserir(){
     
-    var d = new Date("yyyy mm").format;
-    alert(d);
-    
     categoria = $("#slt_nivel :selected").val(),
             
     $.post(rota, {
@@ -44,9 +41,9 @@ function inserir(){
 
         alert(dados);
 
-        window.location.href = 'adm_postagem_blog.php';
-
     });
+
+    window.location.href = 'adm_postagem_blog.php';
 
 }
 
@@ -138,8 +135,6 @@ function atualizar(idPostBlog){
     
     categoria = $("#slt_nivel :selected").val(),
     
-    alert(categoria);
-        
     $.post(rota, {
 
         classe:"Blog Postagem",
@@ -152,9 +147,10 @@ function atualizar(idPostBlog){
         texto:$("#txt_texto").val()
     }).done(function(dados){
         obterTodos();
-        modo = "inserir";
-        window.location.href = 'adm_postagem_blog.php';
+       
     });
+    modo = "inserir";
+    window.location.href = 'adm_postagem_blog.php';
 
 }
 

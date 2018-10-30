@@ -1,0 +1,44 @@
+#imagem_produto{
+    height: 350px;
+    width: 350px;
+    background-color: aqua;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+.descricoes{
+    height: 50px;
+    width: 750px;  
+    margin-top: 50px;
+    float: right;
+    font-size: 30px;
+}
+
+#linha_label{
+    height: 60px;
+    width: 999px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    float: left;    
+}
+
+.label{
+    height: 60px%;
+    width: 333px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    border-bottom: 1px solid #000;
+}
+
+.linhas{
+    height: 100px;
+    width: 999px;
+    float: left;    
+    border-bottom: 1px solid #000;
+
+}

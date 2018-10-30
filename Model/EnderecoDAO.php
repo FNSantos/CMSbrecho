@@ -106,6 +106,34 @@
             }
 
         }
+        
+        public function atualizarEstado(Endereco $endereco){
+
+            $conexao = ConexaoBanco::obterConexao();
+
+            $SQL = "UPDATE tbl_estado SET(id_estado, nome) VALUES(?, ?) WHERE id_estado = ?";
+
+            $stm = $conexao->prepare($SQL);
+
+            $stm->bindValue(1, $endereco->getIdEstado());
+            $stm->bindValue(2, $endereco->getEstado());
+            $stm->bindValue(3, $endereco->getIdEstado());
+
+            $envio = $stm->execute();
+
+            $conexao = null;
+
+            if($envio){
+
+                return true;
+
+            } else {
+
+                return false;
+
+            }
+
+        }
 
         public function inserirCidade(Endereco $endereco){
 
@@ -126,6 +154,48 @@
                 echo("!!!Dentro");
 
                 $SQL = "INSERT INTO tbl_cidade(nome, id_estado) VALUES(?, ?)";
+
+                $stm = $conexao->prepare($SQL);
+
+                $stm->bindValue(1, $endereco->getCidade());
+                $stm->bindValue(2, $endereco->getIdEstado());
+
+                $stm->execute();
+
+                $SQL = "SELECT LAST_INSERT_ID()";
+
+                $stm = $conexao->prepare($SQL);
+
+                $stm->execute();
+
+                $stm->setFetchMode(PDO::FETCH_ASSOC);
+
+                $resultSet = $stm->fetch();
+
+                $conexao = null;
+
+                return $resultSet["LAST_INSERT_ID()"];
+
+            }
+
+        }
+        public function atualizarCidade(Endereco $endereco){
+
+            $conexao = ConexaoBanco::obterConexao();
+
+            $SQL = "SELECT * FROM tbl_cidade WHERE id_cidade = ?";
+
+            $stm = $conexao->prepare($SQL);
+
+            $stm->bindValue(1, $endereco->getIdCidade());
+
+            $stm->execute();
+
+            echo("!!!Fora".$stm->rowCount());
+
+            if($stm->rowCount() <= 0){
+
+                $SQL = "UPDATE tbl_cidade set(nome, id_estado) VALUES(?, ?)";
 
                 $stm = $conexao->prepare($SQL);
 

@@ -9,7 +9,15 @@
         <script src="JavaScript/ajax_blog_postagem_crud.js" charset="utf-8"></script>
         <script>
             $(document).ready(function(){
-               obterUm(); 
+                var id = "<?php echo $_GET['id'];?>";
+                
+                if(id == null){
+
+                }else{
+                    obterUm();
+                }
+                
+                
             });
         </script>
     </head>
