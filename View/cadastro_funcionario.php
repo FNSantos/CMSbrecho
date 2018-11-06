@@ -54,11 +54,11 @@
                                 Sexo
                             </div>
                             <input type="radio" name="rdo_sexo" id="rdo_sexo" value="F" class="input_radio" style="margin-left:10px;">
-                            <div class="radio_title">
+                            <div class="radio_title" style="color:#000000;">
                                 Feminino
                             </div>
                             <input type="radio" name="rdo_sexo" id="rdo_sexo" value="M" class="input_radio">
-                            <div class="radio_title">
+                            <div class="radio_title" style="color:#000000;">
                                 Masculino
                             </div>
                         </div>

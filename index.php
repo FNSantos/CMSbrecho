@@ -47,6 +47,14 @@
 
         </script>
         <title>CMS Bernadete | Autenticação</title>
+        <style>
+            input[type="text"]{
+                border-radius: 5px;
+            }
+            input[type="password"]{
+                border-radius: 5px;
+            }
+        </style>
     </head>
     <body>
         <div id="main" style="height:1150px;padding-top:50px;">
@@ -55,13 +63,13 @@
                     <img src="View/Imagens/logo_brecho.png" alt="">
                 </div>
                 <div class="content_input" style="margin-top:50px;">
-                    <div class="title_input">
+                    <div class="title_input" style="color:#ffffff;" >
                         E-mail
                     </div>
                     <input type="text" name="txt_email" id="txt_email" placeholder="Digite o seu e-mail." class="input_text" style="width:500px;">
                 </div>
                 <div class="content_input" style="margin-top:20px;">
-                    <div class="title_input">
+                    <div class="title_input" style="color:#ffffff;" >
                         Senha
                     </div>
                     <input type="password" name="txt_senha" id="txt_senha" placeholder="Digite a sua senha." class="input_text" style="width:500px;">

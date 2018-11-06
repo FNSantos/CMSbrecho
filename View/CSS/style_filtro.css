@@ -1,0 +1,56 @@
+#register_content{
+
+    width: 420px;
+    height: 150px;
+    margin-left: 180px;
+    margin-right: 20px;
+    /* background-color: blue; */
+    float: left;
+
+}
+
+#list_levels{
+
+    width: 400px;
+    height: 90px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+
+}
+
+.title_input{
+    margin-top: 10px;
+}
+
+.select_tipo_filtro{
+    width: 150px;
+    height: 30px;  
+    float: left;
+    margin-top: 5px;
+}
+
+.select_subcategoria{
+    width: 150px;
+    height: 30px;  
+    float: left;
+    margin-top: 5px;
+}
+
+#btn_salvar{
+    width: 150px;
+    height: 30px;
+  margin-left: 20px;
+
+}
+
+#btn_cancelar{
+    width: 150px;
+    height: 30px; 
+    float: left;
+    margin-left: 155px;
+}

@@ -563,7 +563,60 @@
 
                     }
 
+                    case "Filtro":
+            
+                    require_once("Controller/Filtro.php");
 
+                    $filtro = new FiltroControl();
+
+                    switch ($_POST["acao"]) {
+
+                        case "inserir":
+
+                            $filtro->inserir();
+
+                            break;
+
+                        case "obterTodos":
+
+                            $filtro->obterTodos();
+
+                            break;
+
+                        case "obterUm":
+
+                            $filtro->obterUm();
+
+                            break;
+
+                        case "atualizar":
+
+                            $filtro->atualizar();
+
+                            break;
+
+                        case "remover":
+
+                            $filtro->remover();
+
+                            break;
+
+                        case "obterTipoFiltro":
+                            
+                            $filtro->obterTipoFiltro();
+
+                            break;
+
+                        case "atualizarSituacao":
+                            
+                            $filtro->atualizarSituacao();
+
+                            break;
+
+
+                    }
+
+                    break;
     }
 
  ?>

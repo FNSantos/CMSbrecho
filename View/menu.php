@@ -15,13 +15,13 @@
                 </div>
             </a>
             <a href="adm_cliente.php">
-                <div class="item_text" style=" background-color:#a0dbd3;margin-left:0; width:200px;text-align: center;">
+                <div class="item_text" style="margin-left:0; width:200px;text-align: center;">
                     Cliente
                 </div>
                 
             </a> 
             <a href="adm_funcionario.php">
-                <div class="item_text" style=" background-color:#a0dbd3;margin-left:0; width:200px;text-align: center;">
+                <div class="item_text" style="margin-left:0; width:200px;text-align: center;">
                     Funcionario
                 </div>
                 
@@ -42,19 +42,19 @@
                 </div>
             </a>
             <a href="adm_produtos.php">
-                <div class="item_text" style=" background-color:#a0dbd3;margin-left:0; width:200px;text-align: center;">
+                <div class="item_text" style=" margin-left:0; width:200px;text-align: center;">
                     Produtos
                 </div>
                 
             </a> 
             <a href="adm_categoria.php">
-                <div class="item_text" style=" background-color:#a0dbd3;margin-left:0; width:200px;text-align: center;">
+                <div class="item_text" style=" margin-left:0; width:200px;text-align: center;">
                     Categoria
                 </div>
                 
             </a> 
             <a href="adm_subcategoria.php">
-                <div class="item_text" style=" background-color:#a0dbd3;margin-left:0; width:200px;text-align: center;">
+                <div class="item_text" style=" margin-left:0; width:200px;text-align: center;">
                     Sub categoria
                 </div>
                 
@@ -83,7 +83,7 @@
                 </div>
             </a> 
             <a href="adm_postagem_blog.php">
-                <div class="item_text" style="background-color:#a0dbd3;margin-left:0;width:200px;padding-left:0px;text-align: center;">
+                <div class="item_text" style="margin-left:0;width:200px;padding-left:0px;text-align: center;">
                     Postagem Blog
                 </div>
             </a>
