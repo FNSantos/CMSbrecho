@@ -1,0 +1,359 @@
+/* Conteudo da segunda sessao da tela */
+@media screen and (min-device-width:200px) and (max-device-width:520px){
+
+    #main_cont{
+
+        width: 100%;
+        min-height: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+#primeira_sessao{
+    height: 498px;
+    width: 100% ;
+    border: 1px solid #000;
+}
+
+#titulo{
+    height: 170px;
+    width: 800px;
+    text-align: justify;
+    vertical-align: top;
+    font-size: 38px;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+    font-family: arial;
+}
+
+#descricao{
+    height: 146px;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#data{
+    height: 136px;
+    width: 280px;
+    float: left;
+    text-align: center, left;
+    font-size: 20px;
+}
+
+/* Conteudo da segunda sessao da tela */
+#segunda_sessao{
+    height: 458px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/imagens/imagem12.jpg");
+    transition: 1s;
+}
+
+#segunda_sessao:hover{
+    height: 490px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/imagens/imagem12.jpg");
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Conteudo da segunda sessao da tela */
+#terceira_sessao{
+    height: 350px;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Conteudo da segunda sessao da tela */
+#quarta_sessao{
+    height: 498px;
+    width: 100%;
+}
+
+#imagem{
+    height: 400px;
+    width: 100%;
+    background-image: url('../imagens/imagens/armario.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+
+#imagem:hover{
+    height: 400px;
+    width: 1100px;
+    background-image: url('../imagens/imagens/armario.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.1);
+    cursor: pointer;
+
+
+}
+
+/* Conteudo da segunda sessao da tela */
+#quinta_sessao{
+    height: 380px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Conteudo da segunda sessao da tela */
+#sexta_sessao{
+    height: 1300px;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.imagens{
+    height: 550px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    margin-top: 60px;
+}
+
+/* Conteudo da segunda sessao da tela */
+#setima_sessao{
+    height: 380px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Conteudo da segunda sessao da tela */
+
+#oitava_sessao{
+    height: 800px;
+    width: 100%;
+}
+
+#oitava_sessao .imagens{
+    height: 600px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    float: left;
+}
+
+#oitava_sessao img{
+    height: 600px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    float: left;
+}
+
+.antesDepois{
+    height: 100px;
+    width: 548px;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 19px;
+    display: none;
+}
+
+#antesDepois{
+    display: none;
+}
+}
+
+@media screen and (min-device-width:521px) {
+
+#main_cont{
+
+        width: 1400px;
+        min-height: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+#primeira_sessao{
+    height: 498px;
+    width: 100% ;
+    border: 1px solid #000;
+}
+
+#titulo{
+    height: 170px;
+    width: 800px;
+    text-align: justify;
+    vertical-align: top;
+    font-size: 38px;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+    font-family: arial;
+}
+
+#descricao{
+    height: 146px;
+    width: 650px;
+    float: left;
+    font-size: 20px;
+    padding-left: 350px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+#data{
+    height: 136px;
+    width: 280px;
+    float: left;
+    text-align: center, left;
+    padding-top: 60px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+/* Conteudo da segunda sessao da tela */
+#segunda_sessao{
+    height: 458px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/imagens/imagem12.jpg");
+    transition: 1s;
+}
+
+#segunda_sessao:hover{
+    height: 490px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/imagens/imagem12.jpg");
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Conteudo da segunda sessao da tela */
+#terceira_sessao{
+    height: 350px;
+    width: 600px;
+    padding-left: 398px;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Conteudo da segunda sessao da tela */
+#quarta_sessao{
+    height: 498px;
+    width: 1398px;
+}
+
+#imagem{
+    height: 400px;
+    width: 1100px;
+    background-image: url('../imagens/imagens/armario.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+
+#imagem:hover{
+    height: 400px;
+    width: 1100px;
+    background-image: url('../imagens/imagens/armario.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.1);
+    cursor: pointer;
+
+
+}
+
+/* Conteudo da segunda sessao da tela */
+#quinta_sessao{
+    height: 380px;
+    width: 600px;
+    padding-left: 398px;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Conteudo da segunda sessao da tela */
+#sexta_sessao{
+    height: 750px;
+    width: 1398px;
+    border: 1px solid #000;
+}
+
+.imagens{
+    height: 550px;
+    width: 500px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+    transition: 1s;
+
+}
+
+.imagens:hover{
+    height: 550px;
+    width: 500px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 50px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Conteudo da segunda sessao da tela */
+#setima_sessao{
+     height: 480px;
+    width: 600px;
+    padding-left: 398px;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Conteudo da segunda sessao da tela */
+
+#oitava_sessao{
+    height: 750px;
+    width: 1398px;
+    border: 1px solid #000;
+}
+
+.antesDepois{
+    height: 100px;
+    width: 548px;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#antesDepois{
+    width:1100px; height:100px; float:left; margin-left:100px;
+
+}
+}

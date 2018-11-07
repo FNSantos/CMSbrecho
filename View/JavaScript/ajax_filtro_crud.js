@@ -28,7 +28,7 @@ function inserir(){
         classe:"Filtro",
         acao:"inserir",
         nome:$("#txt_nome").val(),
-        id_tipo_filtro:$("#slt_tipo_filtro option:selected").val(),
+        id_tipo_filtro:$("#slt_tipo_filtro option:selected").val()
         
     }).done(function(dados){
 
@@ -73,7 +73,7 @@ function obterTipoFiltro(){
 }
 
 function obterUm(idFiltro){
-
+    obterTipoFiltro();
     // alert("!!!!!!!!!!!");
 
     $.post(rota, {
@@ -81,7 +81,6 @@ function obterUm(idFiltro){
         classe:"Filtro",
         acao:"obterUm",
         id:idFiltro,
-        
 
     }).done(function(dados){
 
@@ -91,7 +90,12 @@ function obterUm(idFiltro){
 
         $("#txt_nome").val(filtro["nome"]);
         
-        $("#stl_tipo_nivel option:selected").val(filtro["id_estilo"]);
+
+        $('select#slt_tipo_filtro').find('option').each(function() {
+            if($(this).val() == filtro["id_tipo_filtro"]){
+                $(this).attr('selected', true);
+            }
+        });
 
         $("#btn_cancelar").css({"display":"block"});
 
@@ -119,6 +123,8 @@ function atualizar(){
         obterTodos();
 
         $("#txt_nome").val("");
+
+        $("#slt_tipo_filtro option[value='0']").prop('selected', true);
 
         $("#btn_cancelar").css({"display":"none"});
 

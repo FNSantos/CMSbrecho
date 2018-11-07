@@ -1,0 +1,511 @@
+@media screen and (min-device-width:521px){
+
+#main_empresa{
+    width: 1400px;
+    height: 3200px;
+    background-color: white;
+    margin: auto;
+
+}
+
+.imagem_principal_empresa{
+    width: 1400px;
+    height: 500px;
+
+
+
+}
+
+.titulo{
+    width: 250px;
+    height: 60px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.organiza_texto{
+    width: 600px;
+    height: 650px;
+    text-align: justify;
+    font-size: 24px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    font-family: arial;
+
+
+}
+
+.caixa_organizadora{
+    width: 1400px;
+    height: 640px;
+    background-color: transparent;
+
+
+}
+
+
+
+#imagem_historia{
+    width: 500px;
+    height: 620px;
+    background-size: 100%, 100%;
+    float: left;
+    background-image: url(imagens_css/vintage.jpg) ;
+    margin-left: 100px;
+    margin-top: 20px
+}
+
+
+#imagem_historia:hover
+{
+    border-radius:50%;
+    transition: 2s;
+    opacity: 0.5
+}
+
+
+
+#texto_empresa{
+    width: 550px;
+    height: 600px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 60px;
+    font-family: arial;
+    font-size: 22px;
+    text-align:justify;
+
+}
+
+
+
+
+.organiza_conteudo_empresa{
+    width: 1400px;
+    height: 700px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+
+}
+
+.slider{
+    width: 1200px;
+    height: 700px;
+    margin-left: 110px;
+    float: left;
+    transition: 2s;
+}
+
+#caixa_slider{
+    padding-top: 50px;
+}
+
+.mySlides{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#botao_esquerda{
+	width:150px;
+	height:150px;
+	float:left;
+    position: absolute;
+    margin-top: 230px;
+    background-color: transparent;
+}
+
+.botao_seta{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    border-bottom: none;
+
+
+}
+
+#botao_direita{
+	width:150px;
+	height:150px;
+    float: right;
+    position: relative;
+    margin-top: -380px;
+
+}
+
+
+
+
+.imagem_empresa:hover{
+       -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+
+}
+
+
+
+#img {
+  background-size: 1000px 700px;
+}
+
+.descricao{
+    width: 800px;
+    height: 180px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    font-size: 22px;
+    font-family: arial;
+
+
+}
+
+.localizacao{
+    width: 800px;
+    height: 570px;
+    background-color: white;
+    float: left;
+    clear: both;
+    margin-left: 300px;
+    margin-top: 30px;
+
+}
+
+#img_localizacao{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo_parceria{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 200px;
+
+    }
+
+.titulo_loja{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 100px;
+    display: none;
+
+    }
+
+#organiza_parcerias{
+    width: 1400px;
+    height: 450px;
+    float: left;
+
+
+}
+
+#titulo_parceria{
+        display: none;
+    }
+.parceria{
+    width: 250px;
+    height: 250px;
+    background-color: darkgray;
+    float: left;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+.parceria:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 2s;
+}
+
+}
+
+@media screen and (min-device-width:200px) and (max-device-width:520px) {
+
+
+#main_empresa{
+    width: 100%;
+    height: 4600px;
+    background-color: white;
+    margin: auto;
+
+}
+
+.imagem_principal_empresa{
+    width: 100%;
+    height: 400px;
+
+
+
+}
+
+.titulo{
+    width: 200px;;
+    height: 60px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: arial;
+
+}
+
+
+
+.organiza_texto{
+    width: 100%;
+    height: 650px;
+    text-align: justify;
+    font-size: 24px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    font-family: arial;
+
+
+}
+
+.caixa_organizadora{
+    width: 100%;
+    height: 640px;
+
+
+
+}
+
+
+
+#imagem_historia{
+    width: 80%;
+    height: 620px;
+    background-size: 100%, 100%;
+    float: left;
+    background-image: url(imagens_css/vintage.jpg) ;
+    margin-left: 100px;
+    margin-top: 10px
+}
+
+
+#imagem_historia:hover
+{
+    border-radius:50%;
+    transition: 2s;
+    opacity: 0.5
+}
+
+
+
+#texto_empresa{
+    width: 80%;
+    height: 600px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 60px;
+    font-family: arial;
+    font-size: 22px;
+    text-align:justify;
+
+}
+
+
+
+
+.organiza_conteudo_empresa{
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+
+}
+
+.slider{
+    width: 100%;
+    height: 700px;
+    margin-left: 110px;
+    float: left;
+    transition: 2s;
+}
+
+#caixa_slider{
+    padding-top: 50px;
+}
+
+.mySlides{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#botao_esquerda{
+	width: 20%;
+	height:150px;
+	float:left;
+    position: relative;
+    margin-top: 500px;
+    z-index: 5;
+    overflow: auto;
+    display: none;
+/*    overflow: auto;*/
+    background-color: #000000 ;
+}
+
+.botao_seta{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    border-bottom: none;
+
+
+}
+
+#botao_direita{
+	width:20%;
+	height:150px;
+    float: right;
+    position: relative;
+    margin-top: -380px;
+
+}
+
+
+
+
+.imagem_empresa:hover{
+   -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+
+}
+
+
+
+#img {
+  background-size: 1000px 700px;
+}
+
+.descricao{
+    width: 100%;
+    height: 180px;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    font-size: 22px;
+    font-family: arial;
+
+
+}
+
+.localizacao{
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    float: left;
+
+    margin-left: 80px;
+    margin-top: 30px;
+
+}
+
+#img_localizacao{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#organiza_parcerias{
+    width: 25%;
+    height: 450px;
+    float: left;
+    margin-left: 300px;
+}
+
+.titulo{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 200px;
+
+    }
+
+
+
+
+.titulo_parceria{
+    width: 50%;
+    height: 60px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 500px;
+
+    }
+
+.parceria{
+    width: 100%;
+    height: 250px;
+    background-color: darkgray;
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.parceria:hover
+{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 2s;
+}
+
+}
+
+
+
+
+

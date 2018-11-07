@@ -582,6 +582,11 @@
                             $filtro->obterTodos();
 
                             break;
+                        case "obterTodosFiltros":
+
+                            $filtro->obterTodosFiltros();
+
+                            break;
 
                         case "obterUm":
 

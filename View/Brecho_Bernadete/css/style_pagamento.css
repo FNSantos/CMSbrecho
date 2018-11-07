@@ -1,0 +1,568 @@
+@media screen and (min-width:1770px){
+
+    #progress_bar{
+
+        width: 1000px;
+        height: 55px;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 100px; */
+        /* background-color: darkblue; */
+
+    }
+
+    #step_content{
+
+        width: 1200px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color: purple; */
+
+    }
+
+    .step_title{
+
+        width: 200px;
+        height: 37px;
+        margin-left: 60px;
+        font-family: Arial;
+        font-size: 18pt;
+        text-align: center;
+        padding-top: 13px;
+        float: left;
+        /* background-color: pink; */
+
+    }
+
+    .line_progress{
+
+        width: 370px;
+        height: 10px;
+        float: left;
+        margin-left: -5px;
+        margin-top: 15px;
+        /* border-radius: 20px; */
+        /* margin-top: 100px; */
+        background-color: #00bbff;
+
+    }
+
+    .point_progress{
+
+        width: 70px;
+        height: 70px;
+        float: left;
+        z-index: 2;
+        position: relative;
+        margin-left: -5px;
+        border-radius: 50px;
+        /* border: 1px solid red; */
+        /* margin-left: 450px; */
+        margin-top: -15px;
+        /* margin-right: -50px; */
+        background-color: #00bbff;
+
+    }
+
+    .point_progress > img{
+
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 15px;
+
+    }
+
+    .payment_content{
+
+        width: 350px;
+        height: 750px;
+        margin-top: 50px;
+        margin-left: 100px;
+        background-color: #FFFFFF;
+        float: left;
+
+    }
+
+    .title_content{
+
+        width: 350px;
+        height: 37px;
+        padding-top: 13px;
+        font-family: arial;
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #006666;
+
+    }
+
+    .content_input{
+
+        width: 400px;
+        height: 100px;
+        margin-top: 20px;
+        font-family: arial;
+        font-size: 16pt;
+        /* background-color: blue; */
+
+    }
+
+    .title_input{
+
+        width: 380px;
+        height: 25px;
+        /* color: #FFFFFF; */
+        font-weight: bold;
+        padding-top: 5px;
+        padding-left: 20px;
+        /* background-color: yellow; */
+
+    }
+
+    .input_text{
+
+        width: 350px;
+        height: 40px;
+        font-family: arial;
+        font-size: 15pt;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-left: 10px;
+
+    }
+
+    .input_radio{
+
+        width: 20px;
+        height: 20px;
+        margin-top: 40px;
+        margin-left: 15px;
+        float: left;
+
+    }
+
+    .flags_content{
+
+        width: 180px;
+        height: 200px;
+        margin-left: 13px;
+        float: left;
+        /* background-color: purple; */
+
+    }
+
+    .flag{
+
+        width: 110px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 50px;
+        /* background-color: brown; */
+
+    }
+
+    .flag > img{
+
+        width: 110px;
+        height: 50px;
+
+    }
+
+    .card_data{
+
+        width: 230px;
+        height: 35px;
+        margin: 15px;
+        font-family: Arial;
+        font-size: 13pt;
+        float: left;
+        /* background-color: blue; */
+
+    }
+
+
+}
+
+@media screen and (min-width:180px) and (max-width:1770px){
+
+    #progress_bar{
+
+        width: 1000px;
+        height: 55px;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 100px; */
+        /* background-color: darkblue; */
+
+    }
+
+    #step_content{
+
+        width: 500px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color: purple; */
+
+    }
+
+    .step_title{
+
+        width: 100px;
+        height: 37px;
+        margin-left: 75px;
+        font-family: Arial;
+        font-size: 15pt;
+        text-align: center;
+        padding-top: 13px;
+        float: left;
+        /* background-color: pink; */
+
+    }
+
+    .line_progress{
+
+        width: 120px;
+        height: 10px;
+        float: left;
+        margin-left: -5px;
+        margin-top: 15px;
+        /* border-radius: 20px; */
+        /* margin-top: 100px; */
+        background-color: #00bbff;
+
+    }
+
+    .point_progress{
+
+        width: 70px;
+        height: 70px;
+        float: left;
+        z-index: 2;
+        position: relative;
+        margin-left: -5px;
+        border-radius: 50px;
+        /* border: 1px solid red; */
+        /* margin-left: 450px; */
+        margin-top: -15px;
+        /* margin-right: -50px; */
+        background-color: #00bbff;
+
+    }
+
+    .point_progress > img{
+
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 15px;
+
+    }
+
+    .payment_content{
+
+        width: 350px;
+        height: 750px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #FFFFFF;
+        /* float: left; */
+
+    }
+
+    .title_content{
+
+        width: 350px;
+        height: 37px;
+        padding-top: 13px;
+        font-family: arial;
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #006666;
+
+    }
+
+    .content_input{
+
+        width: 400px;
+        height: 100px;
+        margin-top: 20px;
+        font-family: arial;
+        font-size: 16pt;
+        /* background-color: blue; */
+
+    }
+
+    .title_input{
+
+        width: 380px;
+        height: 25px;
+        /* color: #FFFFFF; */
+        font-weight: bold;
+        padding-top: 5px;
+        padding-left: 20px;
+        /* background-color: yellow; */
+
+    }
+
+    .input_text{
+
+        width: 350px;
+        height: 40px;
+        font-family: arial;
+        font-size: 15pt;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-left: 10px;
+
+    }
+
+    .input_radio{
+
+        width: 20px;
+        height: 20px;
+        margin-top: 40px;
+        margin-left: 15px;
+        float: left;
+
+    }
+
+    .flags_content{
+
+        width: 180px;
+        height: 200px;
+        margin-left: 13px;
+        float: left;
+        /* background-color: purple; */
+
+    }
+
+    .flag{
+
+        width: 110px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 50px;
+        /* background-color: brown; */
+
+    }
+
+    .flag > img{
+
+        width: 110px;
+        height: 50px;
+
+    }
+
+    .card_data{
+
+        width: 230px;
+        height: 35px;
+        margin: 15px;
+        font-family: Arial;
+        font-size: 13pt;
+        float: left;
+        /* background-color: blue; */
+
+    }
+
+
+}
+
+@media screen and (min-device-width:180px) and (max-device-width:650px){
+
+    #progress_bar{
+
+        width: 1000px;
+        height: 55px;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: 100px; */
+        /* background-color: darkblue; */
+
+    }
+
+    #step_content{
+
+        width: 500px;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color: purple; */
+
+    }
+
+    .step_title{
+
+        width: 100px;
+        height: 37px;
+        margin-left: 75px;
+        font-family: Arial;
+        font-size: 15pt;
+        text-align: center;
+        padding-top: 13px;
+        float: left;
+        /* background-color: pink; */
+
+    }
+
+    .line_progress{
+
+        width: 120px;
+        height: 10px;
+        float: left;
+        margin-left: -5px;
+        margin-top: 15px;
+        /* border-radius: 20px; */
+        /* margin-top: 100px; */
+        background-color: #00bbff;
+
+    }
+
+    .point_progress{
+
+        width: 70px;
+        height: 70px;
+        float: left;
+        z-index: 2;
+        position: relative;
+        margin-left: -5px;
+        border-radius: 50px;
+        /* border: 1px solid red; */
+        /* margin-left: 450px; */
+        margin-top: -15px;
+        /* margin-right: -50px; */
+        background-color: #00bbff;
+
+    }
+
+    .point_progress > img{
+
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+        margin-top: 15px;
+
+    }
+
+    .payment_content{
+
+        width: 350px;
+        height: 750px;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #FFFFFF;
+        /* float: left; */
+
+    }
+
+    .title_content{
+
+        width: 350px;
+        height: 37px;
+        padding-top: 13px;
+        font-family: arial;
+        font-size: 16pt;
+        font-weight: bold;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #006666;
+
+    }
+
+    .content_input{
+
+        width: 400px;
+        height: 100px;
+        margin-top: 20px;
+        font-family: arial;
+        font-size: 16pt;
+        /* background-color: blue; */
+
+    }
+
+    .title_input{
+
+        width: 380px;
+        height: 25px;
+        /* color: #FFFFFF; */
+        font-weight: bold;
+        padding-top: 5px;
+        padding-left: 20px;
+        /* background-color: yellow; */
+
+    }
+
+    .input_text{
+
+        width: 350px;
+        height: 40px;
+        font-family: arial;
+        font-size: 15pt;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-left: 10px;
+
+    }
+
+    .input_radio{
+
+        width: 20px;
+        height: 20px;
+        margin-top: 40px;
+        margin-left: 15px;
+        float: left;
+
+    }
+
+    .flags_content{
+
+        width: 180px;
+        height: 200px;
+        margin-left: 13px;
+        float: left;
+        /* background-color: purple; */
+
+    }
+
+    .flag{
+
+        width: 110px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 50px;
+        /* background-color: brown; */
+
+    }
+
+    .flag > img{
+
+        width: 110px;
+        height: 50px;
+
+    }
+
+    .card_data{
+
+        width: 230px;
+        height: 35px;
+        margin: 15px;
+        font-family: Arial;
+        font-size: 13pt;
+        float: left;
+        /* background-color: blue; */
+
+    }
+
+
+}

@@ -1,0 +1,796 @@
+ /* css */
+
+body{
+margin: 0;
+background-color: #6E8B86;
+    
+}
+
+/* Menu */
+header{
+	width: 100%;
+	height: 110px;
+    color: #FFFFFF;
+    /* font-weight: bold; */
+    font-family: Arial;
+	background-color: #6E8B86;
+}
+
+#menu{
+    width: 1600px;
+    height: 100px;
+    background-color: #6E8B86;
+    margin: auto;
+    padding-top: 5px;
+
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+    /* background-color: black; */
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+}
+
+#logo > img{
+
+    width: 80px;
+    height: 80px;
+
+}
+
+#item{
+    margin-top: 40px;
+    margin-left: 35px;
+    float: left;
+}
+
+.itens{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left:100px;
+    font-size: 15pt;
+}
+
+/* Area de login ou cadastro */
+
+#login{
+    width: 400px;
+    height: 100px;
+    float: left;
+    margin-left: 150px;
+
+}
+
+#autenticacao{
+    width: 220px;
+    height: 50px;
+    font-size: 15pt;
+    margin-top: 20px;
+    float: left;
+    line-height: 3;
+}
+
+#perfil{
+    width: 70px;
+    height: 70px;
+    /* background-color: black; */
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#perfil > img{
+
+    width: 70px;
+    height: 70px;
+
+}
+/* main */
+
+#main{
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+    background-color: white;
+        
+}
+
+/* titulos da home */
+
+.titulos_home{
+    width: 1400px;
+    height: 100px;
+    text-align: center;
+    line-height: 2.1;
+    font-size: 44px;
+    background-color: #9DC7C0;
+}
+
+/* slide */
+
+#content_slide{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+#slide{
+    width: 1400px;
+    height: 500px;
+    margin: auto;
+    background-color: darkgreen;
+}
+
+/*.prev{
+
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -288px;
+    color: black;
+    left: 283px;
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.0);
+    border: 0px;
+}
+
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -288px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    right: 286px;
+    border: 0px;
+    background-color: rgba(0,0,0,0.0);
+}
+
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    height: 326px;
+    margin-top: -410px;
+    transition: 0s;
+}
+
+*/
+
+.mySlides{
+    width: 1400px;
+    height: 500px;
+}
+
+/* Negócio */
+
+#content_negocio{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+#negocio{
+    width: 1400px;
+    height: 550px;
+    background-color: blueviolet;
+    margin: auto;
+    
+}
+
+#img_negocio{
+    width: 1400px;
+    height: 450px;
+    position: relative;    
+}
+
+#img_negocio_camada{
+    width: 1400px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#img_negocio_camada p{
+    width: 80%;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+/* Recentemente adicionado */
+
+#content_recentadd{
+    width: 100%;
+    height: 550px;
+    background-color: white; 
+}
+
+#recentadd{
+    width: 1400px;
+    height: 550px;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+#adicionados{
+    width: 1400px;
+    height: 425px;
+    background-color: black;
+    padding-top: 25px;
+    
+}
+
+.itens_add{
+    width: 300px;
+    height: 400px;
+    float: left;
+    background-color: white;
+    margin-left: 50px;
+    position: relative;
+}
+
+.itens_add_camada{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.itens_add_camada p{
+    width: 80%;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+
+/* Tendencia */
+
+#content_tendencia{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+#tendencia{
+    width: 1400px;
+    height: 550px;
+    background-color: darkred;
+    margin: auto;
+}
+
+#tendencias{
+    width: 1400px;
+    height: 425px;
+    padding-top: 25px;
+    background-color: black;
+}
+
+.itens_tendencias{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 50px;
+}
+
+/* Ofertas */
+
+#content_ofertas{
+    width: 100%;
+    height: 750px;
+    background-color: white;
+}
+
+#ofertas{
+    width: 1400px;
+    height: 750px;
+    background-color: brown;
+    margin: auto;
+}
+
+#oferta{
+    width: 1375px;
+    height: 625px;
+    background-color: white; 
+    padding-top: 25px;
+    padding-left: 25px;
+
+}
+
+#img_destaque{
+    width: 500px;
+    height: 600px;
+    background-color: red;
+    float: left;
+}
+
+#oferta_slide{
+    width: 700px;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+/* Rodapé */
+
+footer{
+    width: 100%;
+	height: 400px;
+}
+
+#rodape{
+    width: 1400px;
+    height: 325px;
+    background-color: white;
+    margin: auto;
+    padding-top: 75px;
+    background-color: #556D69;
+    color: white;
+    font-family: DokChampa;
+}
+
+/* mapa da empresa */
+
+#mapa_do_site{
+    width: 130px;
+    height: auto;
+    margin-left: 75px;
+    float:left;
+}
+
+#titulo_mapa{
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.pgs{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    margin-top: 3px;
+    
+}
+
+/*redes sociais */
+
+#redes_sociais{
+    width: 560px;
+    height: 180px;
+    border: solid 0px black;  
+    float: left;
+    margin-left: 200px;
+    
+}
+
+#titulo_rede_social{
+    width: 150px;
+    height: auto;
+    font-weight: bold;
+    font-size: 20px;
+    
+       
+}
+
+#rede{
+    width: 550px;
+    height: 114px;
+    margin-left: 0px;
+    border: solid 0px black;
+}
+
+.redes{
+    width: 100px;
+    height: 100px;
+    border: solid 0px black;
+    float: left;
+    margin-top: 5px;
+    margin-left: 40px;
+    
+}
+
+/* contatos */
+
+#contato{
+    width: 260px;
+    height: 180px;
+    border: solid 0px black;  
+    float: left;
+    margin-left: 100px; 
+}
+
+#titulo_contato{
+    width: 100px;
+    height: auto;
+    font-weight: bold;
+    font-size: 20px; 
+        
+    
+}
+
+.contatos{
+    width: auto;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.referencia{
+    width: 450px;
+    height: 50px;
+    border: solid 0px black;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* ------------------------------------------- */
+
+/* cadastro usuario */
+
+#cadastro{
+    width: 1400px;
+    height: 1350px;
+    background-color: white;
+    margin: auto;
+    padding-top: 100px;
+}
+
+#cadastrando{
+    width: 1000px;
+    height: 1350px;
+    border: solid 1px black;
+    background-color: white;
+    margin: auto;
+    
+}
+
+#dados{
+    width: 1000px;
+    height: 1250px;
+    background-color: white;
+    
+    
+}
+
+.cadastrando_dados{
+    width: 500px;
+    height: 1050px;
+    float: left;
+    background-color: #6E8B86;
+    
+}
+
+.campo_cadastro{
+    width: 490px;
+    height: 100px;
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.titulo_cadastro{
+    width: 170px;
+    color: black;
+    border: solid 0px black;
+    font-size: 30px;
+    align-content: right;
+
+}
+
+.icone_cadastro{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+}
+
+.input_cadastro{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 0px; 
+    margin-left: 15px;
+
+}
+
+.inputs{
+    width: 325px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 2px black;
+}
+
+#logradouro{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+#campo_logradouro{
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 2px black;
+}
+
+#bairro{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+#campo_bairro{
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 2px black;
+}
+
+#municipio{
+    width: 300px;
+    height: 80px;
+    background-color: blue;
+        
+}
+
+#municipios{
+    width: 300px;
+    height: 80px;
+    font-size: 22px;
+}
+
+#cep{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+
+}
+
+#campo_cep{
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 2px black;
+}
+
+.sexo{
+    width: 20px;
+    height: 20px;
+}
+
+
+#numero{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+
+}
+
+#campo_numero{
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 2px black;
+}
+
+#complemento{
+    width: 250px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 120px;
+
+}
+
+#campo_complemento{
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 2px black;
+}
+
+#estado{
+    width: 300px;
+    height: 80px;
+    background-color: blue;
+        
+}
+
+#estados{
+    width: 300px;
+    height: 80px;
+    font-size: 22px;
+}
+
+#btn_cadastro{
+    width: 250px;
+    height: 100px;
+    background-color: #dcdcdc;
+    float: left;
+    margin-left: 350px;
+    clear: both;
+}
+
+#btn_cadastrar{
+    width: 250px;
+    height: 100px;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+
+/* ------------------------------------------------------- */
+
+/* usuario produtos comprados */
+
+#usuario_compras{
+    width: 1400px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+
+#menu_usuario{
+    width: 1250px;
+    height: 50px;
+    padding-top: 50px;
+    margin-left: 50px;
+    border-bottom: solid 1px black;    
+}
+
+.opc_usuario{
+    width: 225px;
+    height: 50px;
+    color: black;
+    line-height: 2.5;
+    font-size: 22px;
+    text-align: center;
+    background-color: #dcdcdc;
+    margin-left: 0px;
+    float: left;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border: solid 1px black;
+}
+
+.compras_usuario{
+    width: 1250px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: solid 0px black;
+}
+
+.img_compras{
+    width: 350px;
+    height: 350px;
+    margin-top:25px;
+    margin-left: 25px;
+    border: solid 0px black;
+    float: left;
+}
+
+.desc_compras{
+    width: 500px;
+    height: 350px;
+    border: solid 0px black;
+    margin-left: 50px;
+    margin-top: 25px;
+    float: left;
+}
+
+.hr_compras{
+    margin-top: 25px;
+    width: 1250px;
+}
+
+#vermais_compras{
+    width: 250px;
+    height: 70px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+#btn_vermais{
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+/* usuarioVendas */
+
+.vendas_usuario{
+    width: 1250px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: solid 0px black;
+}
+
+.img_vendas{
+    width: 350px;
+    height: 350px;
+    margin-top:25px;
+    margin-left: 25px;
+    border: solid 0px black;
+    float: left;
+}
+
+.desc_vendas{
+    width: 500px;
+    height: 350px;
+    border: solid 0px black;
+    margin-left: 50px;
+    margin-top: 25px;
+    float: left;
+}
+
+.hr_vendas{
+    margin-top: 25px;
+    width: 1250px;
+}
+
+#vermais_vendas{
+    width: 250px;
+    height: 70px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+#btn_vermaisv{
+    width: 250px;
+    height: 50px;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+
+
+
+

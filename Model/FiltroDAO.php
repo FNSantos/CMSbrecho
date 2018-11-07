@@ -63,7 +63,7 @@
 
             $conexao = ConexaoBanco::obterConexao();
 
-            $SQL = "SELECT * FROM tbl_filtro";
+            $SQL = "SELECT * FROM tbl_filtro;";
 
             $stm = $conexao->prepare($SQL);
 
@@ -71,13 +71,15 @@
 
             $stm->setFetchMode(PDO::FETCH_ASSOC);
 
+
             while($resultSet = $stm->fetch()){
 
                 $filtro = new Filtro();
 
                 $filtro->setId($resultSet["id_filtro"]);
-                $filtro->setNome($resultSet["nome"]);
                 $filtro->setSituacao($resultSet["situacao"]);
+                $filtro->setNome($resultSet["nome"]);
+                $filtro->setIdTipoFiltro($resultSet["id_tipo_filtro"]);
 
                 $listaFiltro[] = $filtro;
 
@@ -129,7 +131,7 @@
 
             $conexao = ConexaoBanco::obterConexao();
 
-            $SQL = "UPDATE tbl_filtro SET nome = ?, set id_tipo_filtro = ? WHERE id_filtro = ? ";
+            $SQL = "UPDATE tbl_filtro SET nome = ?, id_tipo_filtro = ? WHERE id_filtro = ?";
 
             $stm = $conexao->prepare($SQL);
 

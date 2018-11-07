@@ -1,0 +1,492 @@
+/* cadastro usuario */
+@media screen and (min-device-width:521px){
+
+
+    .titulo{
+        width: 1400px;
+        height: 100px;
+        text-align: center;
+        line-height: 2.1;
+        font-size: 44px;
+        background-color: #9DC7C0;
+    }
+
+
+    #cadastro{
+        width: 1400px;
+        height: 1450px;
+        background-color: white;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    #cadastrando{
+        width: 1000px;
+        height: 1450px;
+        border: solid 0px black;
+        background-color: white;
+        margin: auto;
+
+    }
+
+    #dados{
+        width: 1000px;
+        height: 1150px;
+        background-color: white;
+
+
+    }
+
+    #cadastrando_dados{
+        width: 1000px;
+        height: 1250px;
+        float: left;
+        background-color: #6E8B86;
+
+    }
+
+    .linha{
+        width: 1000px;
+        height: 130px;
+        background-color: white;
+    }
+
+    .campo_cadastro{
+        width: 490px;
+        height: 100px;
+        background-color: white;
+        padding-left: 10px;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .titulo_cadastro{
+        width: 170px;
+        color: black;
+        border: solid 0px black;
+        font-size: 30px;
+        align-content: right;
+
+    }
+
+    .icone_cadastro{
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+    }
+
+     .icone_cadastro>img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .input_cadastro{
+        width: auto;
+        height: auto;
+        float: left;
+        margin-top: 0px;
+        margin-left: 15px;
+
+    }
+
+    .inputs{
+        width: 325px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #logradouro{
+        width: 300px;
+        height: 50px;
+        float: left;
+
+    }
+
+    #campo_logradouro{
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #bairro{
+        width: 300px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+
+    }
+
+    #campo_bairro{
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #municipio{
+        width: 300px;
+        height: 80px;
+        background-color: blue;
+
+    }
+
+    #municipios{
+        width: 300px;
+        height: 80px;
+        font-size: 22px;
+    }
+
+    #cep{
+        width: 300px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+
+    }
+
+    #campo_cep{
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    .sexo{
+        width: 20px;
+        height: 20px;
+    }
+
+
+    #numero{
+        width: 300px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 40px;
+
+    }
+
+    #campo_numero{
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #complemento{
+        width: 250px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 120px;
+
+    }
+
+    #campo_complemento{
+        width: 250px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #estado{
+        width: 300px;
+        height: 80px;
+        background-color: blue;
+
+    }
+
+    #estados{
+        width: 300px;
+        height: 80px;
+        font-size: 22px;
+    }
+
+    #btn_cadastro{
+        width: 250px;
+        height: 100px;
+        background-color: #dcdcdc;
+        float: left;
+        margin-left: 350px;
+        clear: both;
+    }
+
+    #btn_cadastrar{
+        width: 250px;
+        height: 100px;
+        font-size: 22px;
+        background-color: transparent;
+    }
+
+}
+
+
+
+@media screen and (max-device-width:520px){
+
+    #header{
+        display: none;
+    }
+
+
+    .titulo{
+        width: 1400px;
+        height: 100px;
+        text-align: center;
+        line-height: 2.1;
+        font-size: 44px;
+        background-color: #9DC7C0;
+    }
+
+
+    #cadastro{
+        width: 100%;
+        height: 1450px;
+        background-color: white;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    #cadastrando{
+        width: 100%;
+        height: 1450px;
+        border: solid 0px black;
+        background-color: white;
+        margin: auto;
+
+    }
+
+    #dados{
+        width: 1000px;
+        height: 1150px;
+        background-color: white;
+
+
+    }
+
+    #cadastrando_dados{
+        width: 100%;
+        height: 1250px;
+        float: left;
+        background-color: #6E8B86;
+
+    }
+
+    .linha{
+        width: 100%;
+        min-height: 130px;
+        height: auto;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .campo_cadastro{
+        width: 100%;
+        height: 150px;
+        background-color: white;
+        padding-left: 10px;
+        margin-top: 30px;
+
+
+
+    }
+
+    .titulo_cadastro{
+        width: 100%;
+        color: black;
+        border: solid 0px black;
+        font-size: 30px;
+        align-content: right;
+
+    }
+
+    .icone_cadastro{
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+    }
+
+     .icone_cadastro>img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .input_cadastro{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: 0px;
+        margin-left: 15px;
+
+    }
+
+    .inputs{
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #logradouro{
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+
+    }
+
+    #campo_logradouro{
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #bairro{
+        width: 100%;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+
+    }
+
+    #campo_bairro{
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #municipio{
+        width: 300px;
+        height: 80px;
+        background-color: blue;
+
+    }
+
+    #municipios{
+        width: 300px;
+        height: 80px;
+        font-size: 22px;
+    }
+
+    #cep{
+        width: 300px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+
+    }
+
+    #campo_cep{
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    .sexo{
+        width: 20px;
+        height: 20px;
+    }
+
+
+    #numero{
+        width: 300px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 40px;
+
+    }
+
+    #campo_numero{
+        width: 300px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #complemento{
+        width: 250px;
+        height: 50px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 120px;
+
+    }
+
+    #campo_complemento{
+        width: 250px;
+        height: 50px;
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: solid 2px black;
+    }
+
+    #estado{
+        width: 300px;
+        height: 80px;
+        background-color: blue;
+
+    }
+
+    #estados{
+        width: 300px;
+        height: 80px;
+        font-size: 22px;
+    }
+
+    #btn_cadastro{
+        width: 250px;
+        height: 100px;
+        background-color: #dcdcdc;
+        float: left;
+        margin-left: 350px;
+        clear: both;
+        margin-top: 1300px;
+    }
+
+    #btn_cadastrar{
+        width: 250px;
+        height: 100px;
+        font-size: 22px;
+        background-color: transparent;
+    }
+
+    #rodape{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+}

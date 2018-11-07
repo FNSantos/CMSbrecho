@@ -42,15 +42,14 @@
                 echo('<td class="column_content">');
                 echo('<img src="Imagens/excluir.png" alt="Excluir" style="margin:0px;" onclick="remover('.$filtro->getId().')">');
                 echo('<img src="Imagens/editar.png" alt="Editar Funcionário" onclick="obterUm('.$filtro->getId().')">');
-                echo('<img src="Imagens/'.($filtro->getSituacao() == 0 ? "check_true.png" : "check_false.png").'" alt="Ativar/Desativar Funcionário" onclick="atualizarSituacao('.$filtro->getId().', '.$filtro->getSituacao().')">');
+                echo('<img src="Imagens/'.($filtro->getSituacao() == 1 ? "check_true.png" : "check_false.png").'" alt="Ativar/Desativar Funcionário" onclick="atualizarSituacao('.$filtro->getId().', '.$filtro->getSituacao().')">');
                 echo('</td>');
                 echo('</tr>');
 
             }
 
         }
-        
-        
+       
         public function obterTipoFiltro(){
 
             $filtroDAO = new FiltroDAO();
@@ -60,7 +59,7 @@
             $listaFiltro = $filtroDAO->obterTipoFiltro();
                                     
             echo('<select class="select_tipo_filtro" id="slt_tipo_filtro">');
-            echo('<option value=""> -SELECIONE-</option>');
+            echo('<option value="0"> -SELECIONE-</option>');
             foreach ($listaFiltro as $row) {
                 
                 echo('<option value="'.$row->getIdTipoFiltro().'">'.$row->getNome().'</option>');

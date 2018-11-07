@@ -54,7 +54,7 @@ function obterFiltro(id_tipo_filtro){
         id_tipo_filtro: id_tipo_filtro
     
     }).done(function(dados){
-        
+        console.log(dados);
         if(id_tipo_filtro == 1){
             $("#combo_marca").html(dados);    
         }else if(id_tipo_filtro == 2){
